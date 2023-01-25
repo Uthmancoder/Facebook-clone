@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-5.2.2-dist/js/bootstrap.min.js">
+</head>
+<style>
+    body {
+        background-color: white;
+        font-family: 'poppins' sans-serif;
+    }
+
+    .sec {
+        width: 80%;
+        margin: 120px;
+    }
+
+
+    .border {
+        border: 1px solid white;
+        width: 600px;
+        height: 350px;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 0 10px 10px whitesmoke;
+
+    }
+
+    .fb {
+        font-size: 70px;
+    }
+
+    .in {
+        border: 1px solid grey;
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .ff {
+        background-color: rgba(255, 255, 2555, 0.6);
+    }
+
+    .ps {
+        float: right;
+        margin: -5rem 11rem 0 0;
+    }
+
+    .head {
+        display: block;
+        text-align: left;
+    }
+
+    .head input {
+        background-color: rgb(245, 246, 247);
+        border: 1px solid grey;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .wid {
+        width: 220px;
+        padding: 5px;
+        margin: 20px 2px;
+    }
+
+    .tom {
+        overflow: auto;
+        width: 150px;
+    }
+
+    .female {
+        border: 1px solid grey;
+        width: 150px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .female p {
+        margin-top: 10px;
+    }
+
+    .gender-flex {
+        display: flex;
+
+    }
+    .sma{
+        margin-top: 20px;
+    }
+    .btt{
+        margin-left: 120px;
+        width: 200px;
+    }
+    .btt:hover{
+        background-color: rgb(101, 150, 89);
+    }
+</style>
+
+<body>
+    <section class="d-flex justify-content-between sec">
+        <div class="my-5">
+            <h1 class="text-primary  fb">facebook</h1>
+            <p class="fs-3 w-100">Facebook helps you connect and share with the people in your life</p>
+        </div>
+        <div class="border">
+            <div> <input class="w-100 p-2 my-2 in" type="text" placeholder="Email address or phone number"></div>
+            <div><input class="w-100 p-2 my-3 in" type="password" placeholder="password"></div>
+            <div><button class="btn btn-primary w-100 fs-4">log in</button></div>
+            <p class="text-center my-2"><a href="#">forgotten password?</a></p>
+            <hr>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success w-50 p-2" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">
+                create new account
+            </button>
+
+            <!-- Modal -->
+            <div class="modal ff" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="head w-100">
+                                <div class="flex">
+                                    <div>
+                                        <h1 class="modal-title fs-2" id="staticBackdropLabel">Sign Up</h1>
+                                        <p>It's quick and easy.</p>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div>
+                                    <input class="wid" type="text" placeholder="first name" required>
+                                    <input class="wid" type="text" placeholder="surname" required>
+                                </div>
+                                <div>
+                                    <input class="w-100 p-2 my-2" type="text"
+                                        placeholder="Mobile number or email address">
+                                </div>
+                                <div>
+                                    <input class="w-100 p-2 my-2" type="password" placeholder="New password">
+                                </div>
+                                <small>Date of birth <i class="fa-solid fa-circle-question"></i></small>
+                                <div>
+                                    <select class="tom  p-1" name="numbers" id="numbers">
+                                        <option value="one">1</option>
+                                        <option value="one">2</option>
+                                        <option value="one">3</option>
+                                        <option value="one">4</option>
+                                        <option value="one">5</option>
+                                        <option value="one">6</option>
+                                        <option value="one">7</option>
+                                        <option value="one">8</option>
+                                        <option value="one">9</option>
+                                        <option value="one">10</option>
+                                        <option value="one">11</option>
+                                        <option value="one">12</option>
+                                        <option value="one">13</option>
+                                        <option value="one">14</option>
+                                        <option value="one">15</option>
+                                        <option value="one">16</option>
+                                        <option value="one">17</option>
+                                        <option value="one">18</option>
+                                        <option value="one">19</option>
+                                        <option value="one">20</option>
+                                        <option value="one">21</option>
+                                        <option value="one">22</option>
+                                        <option value="one">23</option>
+                                        <option value="one">24</option>
+                                        <option value="one">25</option>
+                                        <option value="one">26</option>
+                                        <option value="one">27</option>
+                                        <option value="one">28</option>
+                                        <option value="one">29</option>
+                                        <option value="one">30</option>
+                                        <option value="one">31</option>
+                                        <option value="one">32</option>
+                                    </select>
+                                    <select class="tom  p-1" name="month" id="month">
+
+                                        <option value="jan">Jan</option>
+                                        <option value="jan">Feb</option>
+                                        <option value="jan">Mar</option>
+                                        <option value="jan">Apr</option>
+                                        <option value="jan">May</option>
+                                        <option value="jan">Jun</option>
+                                        <option value="jan">Jul</option>
+                                        <option value="jan">Aug</option>
+                                        <option value="jan">Sep</option>
+                                        <option value="jan">Oct</option>
+                                        <option value="jan">Nov</option>
+                                        <option value="dec">Dec</option>
+                                    </select>
+                                    <select class="tom  p-1" name="year" id="year">
+                                        <option value="2022">2022</option>
+                                        <option value="2022">2021</option>
+                                        <option value="2022">2020</option>
+                                        <option value="2022">2019</option>
+                                        <option value="2022">2018</option>
+                                        <option value="2022">2017</option>
+                                        <option value="2022">2016</option>
+                                        <option value="2022">2015</option>
+                                        <option value="2022">2014</option>
+                                        <option value="2022">2013</option>
+                                        <option value="2022">2012</option>
+                                        <option value="2022">2011</option>
+                                        <option value="2022">2010</option>
+                                        <option value="2022">2009</option>
+                                        <option value="2022">2008</option>
+                                        <option value="2022">2007</option>
+                                        <option value="2022">2006</option>
+                                        <option value="2022">2005</option>
+                                        <option value="2022">2004</option>
+                                        <option value="2022">2003</option>
+                                        <option value="2022">2002</option>
+                                        <option value="2022">2001</option>
+                                        <option value="2022">2000</option>
+                                        <option value="2022">1999</option>
+                                        <option value="2022">1998</option>
+                                        <option value="2022">1997</option>
+                                        <option value="2022">1996</option>
+                                        <option value="2022">1995</option>
+                                        <option value="2022">1994</option>
+                                        <option value="2022">1993</option>
+                                        <option value="2022">1992</option>
+                                        <option value="2022">1991</option>
+                                        <option value="2022">1990</option>
+                                        <option value="2022">1989</option>
+                                        <option value="2022">1988</option>
+                                        <option value="2022">1987</option>
+                                        <option value="2022">1986</option>
+                                        <option value="2022">1985</option>
+                                        <option value="2022">1984</option>
+                                        <option value="2022">1983</option>
+                                        <option value="2022">1982</option>
+                                        <option value="2022">1981</option>
+                                        <option value="2022">1980</option>
+                                        <option value="2022">1979</option>
+                                        <option value="2022">1978</option>
+                                        <option value="2022">1977</option>
+                                        <option value="2022">1976</option>
+                                    </select>
+                                </div>
+                                <small>Gender <i class="fa-solid fa-circle-question"></i></small>
+                                <div class="gender-flex">
+                                    <div class="female">
+                                        <p>Female</p>                                       
+                                        <input type="radio" name="f" id="female">   
+                                    </div>
+                                    <div class="female">
+                                        <p>Male</p>
+                                        <input type="radio" name="f" id="male">
+                                    </div>
+                                    <div class="female">
+                                        <p>Custom</p>
+                                        <input type="radio" name="f" id="custom">
+                                    </div>
+                                </div>
+                                <div>
+                                    <small>People who use our service may have uploaded your contact information to
+                                        Facebook. <a href="#">Learn more.</a></small>
+                                </div>
+                                <div class="sma">
+                                    <small>
+                                        By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy.</a>
+                                        You may receive SMS notifications from us and can opt out at any time
+                                    </small>
+                                </div>
+                                <button class="btn btn-success  btt">Sign Up</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <p class="ps">Create a Page for a celebrity, brand or business.</p>
+    <script src="https://kit.fontawesome.com/7fe2d1a9ce.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
